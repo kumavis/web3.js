@@ -4301,6 +4301,7 @@ var errors = require('./errors');
 // workaround to use httpprovider in different envs
 
 // browser
+var XMLHttpRequest
 if (typeof window !== 'undefined' && window.XMLHttpRequest) {
   XMLHttpRequest = window.XMLHttpRequest; // jshint ignore: line
 // node
